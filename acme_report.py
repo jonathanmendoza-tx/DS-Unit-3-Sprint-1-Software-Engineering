@@ -9,8 +9,8 @@ def generate_products(num_products=30):
     products = []
 
     for _ in range(num_products):
-    	adj_rand = ADJECTIVES[random.randint(0,len(ADJECTIVES)-1)]
-    	noun_rand = NOUNS[random.randint(0,len(NOUNS)-1)]
+    	adj_rand = ADJECTIVES[randint(0,len(ADJECTIVES)-1)]
+    	noun_rand = NOUNS[randint(0,len(NOUNS)-1)]
     	products += adj_rand+" "+noun_rand
     return products
 
