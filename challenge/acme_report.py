@@ -23,7 +23,8 @@ def generate_products(num_products=30):
 		price = randint(5, 100)
 		flammability = uniform(0,2.5)
 
-		products.append(Product(name = name, weight = weight, price = price, flammability = flammability))
+		products.append(Product(name = name, weight = weight, price = price, 
+								flammability = flammability))
 			
 	return products
 
